@@ -21,9 +21,24 @@ title {
     font-family: 'Roboto Slab';
 }
 
-ul {
+h1{
+    font-size: 50px;
+}
+
+li {
     list-style-type: none;
-    display: inline-block
+    display: inline-block;
+    padding: 4px;
+}
+
+ul{
+    border: solid rgb(189, 184, 184);
+    border-left: 10px;
+    border-right: 10px;
+}
+
+span {
+    color: red;
 }
 
 header {
@@ -39,5 +54,9 @@ body {
 
 .more-articles {
     display: inline-block;
+    padding: 1em;
+    width: 25rem;
+    vertical-align: top;
+    
 }
 
