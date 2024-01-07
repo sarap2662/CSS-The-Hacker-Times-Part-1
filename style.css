@@ -16,6 +16,8 @@
     box-shadow: 2px 2px 5px #ddd;
     background: white;
     margin: 5em auto;
+    text-align: justify;
+    height: 300vh;
 }
 
 body {
@@ -40,12 +42,18 @@ main img{
 }
 
 /* Navigation */
+nav{
+    position: sticky;
+    background: white;
+    top: 0;
+}
 ul{
     text-align: center;
     border: solid rgb(189, 184, 184);
     border-left: 10px;
     border-right: 10px;
 }
+
 
 li {
     display: inline-block;
@@ -77,6 +85,7 @@ header {
     margin-top: 1.5em;
     text-align: left;
     border-top: 2px solid lightgray;
+    text-align: justify;
 }
 
 .more-articles img{
